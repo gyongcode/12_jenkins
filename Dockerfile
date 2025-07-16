@@ -7,3 +7,5 @@ COPY build/libs/*.jar app.jar
 
 # app.jar를 리눅스 환경에서 실행하여 스프링 부트 서버를 시작한다.
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
+
